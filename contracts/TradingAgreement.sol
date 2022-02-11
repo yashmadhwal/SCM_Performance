@@ -1,4 +1,5 @@
-pragma solidity <0.6.5;
+// SPDX-License-Identifier: MIT
+pragma solidity <0.8.10;
 
 contract TradingAgreement{
 
@@ -50,7 +51,7 @@ contract TradingAgreement{
     bool public flagContinue;
     bool public ContractEndAgreement; //default false
 
-    constructor(address _senderAddress, uint _startTime, uint _endTime) public {
+    constructor(address _senderAddress, uint _startTime, uint _endTime) {
         // For the moment, the following information is hardcoded.
 
         // Predeclaring information for Rob, The Receiver
