@@ -18,7 +18,7 @@ Prerequisites:
     
 2. Compile contracts
     ```
-    truffle contract
+    truffle compile
     ```
 3. Open Ganache, and select sender, **Note** Receiver and Sender's address should not be same 
  (_Trick: Let the first address in the Ganache address list be that of Receiver's i.e., Rob and Second be that of Sender i.e., Sally_) 
